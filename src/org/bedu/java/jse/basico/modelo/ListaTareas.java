@@ -4,7 +4,7 @@ import java.time.LocalDate;
 public class ListaTareas {
     //Atributos
     private String nombre;
-    private LocalDate fechaCreacion;
+    private final LocalDate fechaCreacion;
 
     //getters y setters
     public String getNombre() {
@@ -19,9 +19,6 @@ public class ListaTareas {
         return fechaCreacion;
     }
 
-    public void setFechaCreacion(LocalDate fechaCreacion) {
-        this.fechaCreacion = fechaCreacion;
-    }
 
     //Constructor recibe como params:
     //Nombre de lista

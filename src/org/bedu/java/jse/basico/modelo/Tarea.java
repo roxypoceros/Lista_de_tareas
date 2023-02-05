@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Tarea {
     //atributos
     private String nombre;
-    private LocalDate fechaCreacion;
+    private final LocalDate fechaCreacion;
     private LocalDate fechaExpiracion;
     private boolean realizada;
     private LocalDate fechaRealizacion;
@@ -16,8 +16,6 @@ public class Tarea {
     public void setNombre(String nombre) { this.nombre = nombre;
     }
     public LocalDate getFechaCreacion() { return fechaCreacion;
-    }
-    public void setFechaCreacion(LocalDate fechaCreacion) { this.fechaCreacion = fechaCreacion;
     }
     public LocalDate getFechaExpiracion() { return fechaExpiracion;
     }

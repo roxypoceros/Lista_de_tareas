@@ -12,6 +12,11 @@ public class Lector {
         return scanner.nextByte();
     }
 
+    //método que permite leer una cadena y la regrese
+    public String leeCadena(){
+        System.out.print("Cadena: ");
+        return scanner.nextLine();
+    }
 
 
 }
