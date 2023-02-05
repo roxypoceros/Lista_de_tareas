@@ -20,7 +20,7 @@ public class ListaTareasMain {
 
         Menu menu = new Menu();
         Lector lector = new Lector();
-        LstasTareas lista = new LstasTareas();
+        ListasTareas lista = new ListasTareas();
         byte opcionSeleccionada = 0;
 
         //PW02.2 Usar switch con un case para cada opción

@@ -1,5 +1,7 @@
 package org.bedu.java.jse.basico.modelo;
 
+import java.time.LocalDate;
+
 public class Tarea {
     //atributos
     private String nombre;
@@ -9,45 +11,25 @@ public class Tarea {
     private LocalDate fechaRealizacion;
 
    //getters y setters
-    public String getNombre() {
-
-        return nombre;
+    public String getNombre() { return nombre;
     }
-    public void setNombre(String nombre) {
-
-        this.nombre = nombre;
+    public void setNombre(String nombre) { this.nombre = nombre;
     }
-    public LocalDate getFechaCreacion() {
-
-        return fechaCreacion;
+    public LocalDate getFechaCreacion() { return fechaCreacion;
     }
-    public void setFechaCreacion(LocalDate fechaCreacion) {
-
-        this.fechaCreacion = fechaCreacion;
+    public void setFechaCreacion(LocalDate fechaCreacion) { this.fechaCreacion = fechaCreacion;
     }
-    public LocalDate getFechaExpiracion() {
-
-        return fechaExpiracion;
+    public LocalDate getFechaExpiracion() { return fechaExpiracion;
     }
-    public void setFechaExpiracion(LocalDate fechaExpiracion) {
-
-        this.fechaExpiracion = fechaExpiracion;
+    public void setFechaExpiracion(LocalDate fechaExpiracion) { this.fechaExpiracion = fechaExpiracion;
     }
-    public boolean isRealizada() {
-
-        return realizada;
+    public boolean isRealizada() { return realizada;
     }
-    public void setRealizada(boolean realizada) {
-
-        this.realizada = realizada;
+    public void setRealizada(boolean realizada) { this.realizada = realizada;
     }
-    public LocalDate getFechaRealizacion() {
-
-        return fechaRealizacion;
+    public LocalDate getFechaRealizacion() { return fechaRealizacion;
     }
-    public void setFechaRealizacion(LocalDate fechaRealizacion) {
-
-        this.fechaRealizacion = fechaRealizacion;
+    public void setFechaRealizacion(LocalDate fechaRealizacion) { this.fechaRealizacion = fechaRealizacion;
     }
 
     // Crear nombre para tarea, lo escribe el usuario
@@ -64,7 +46,7 @@ public class Tarea {
        fechaCreacion = LocalDate.now();
     }
 
-    // Sobreescribir sus métodos equals y hashCode,
+    // Sobreescribir métodos equals y hashCode,
     // para que sólo se use el nombre.
 
     @Override

@@ -1,4 +1,5 @@
 package org.bedu.java.jse.basico.modelo;
+import java.time.LocalDate;
 
 public class ListaTareas {
     //Atributos
@@ -31,7 +32,7 @@ public class ListaTareas {
     }
 
     {
-        fechaCreacion = LocalDate.now()
+        fechaCreacion = LocalDate.now();
     }
 
 

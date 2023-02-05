@@ -4,7 +4,7 @@ package org.bedu.java.jse.basico;
 // un método para cada una de las opciones del menú, dentro de cada método
 // x ahora solo es necesario mostrar un texto que indique el nombre de esa opción
 
-public class LstasTareas {
+public class ListasTareas {
     public void crearNuevaLista(){
         System.out.println("Crear nueva lista de tareas.");
     }
